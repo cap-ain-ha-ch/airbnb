@@ -1,6 +1,5 @@
 import streamlit as st
 import pandas as pd
-import joblib
 
 MODEL_PATH = "airbnb_final_model.joblib"
 model = joblib.load(MODEL_PATH)
